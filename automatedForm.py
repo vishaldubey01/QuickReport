@@ -12,12 +12,23 @@ import os
 import webdriver_manager
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
+import chromedriver_binary
 
 CHROMEDRIVER_PATH='./env/bin/chromedriver'
+#options = Options()
+#options.headless = True
+#browser = webdriver.Chrome(executable_path='/env/bin/chromedriver', chrome_options=options)
 
-options = Options()
-options.headless = True
-browser = webdriver.Chrome(executable_path=os.getcwd() + '/env/bin/chromedriver', chrome_options=options)
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--disable-gpu")
+chrome_options.add_argument("window-size=1024,768")
+chrome_options.add_argument("--no-sandbox")
+
+# Initialize a new browser
+browser = webdriver.Chrome(chrome_options=chrome_options)
+
+
 
 #browser = webdriver.PhantomJS(executable_path=os.getcwd() + '/env/bin/phantomjs')
 #browser = webdriver.Chrome(ChromeDriverManager().install())

@@ -3,3 +3,4 @@ requests
 webdriver_manager
 Flask==1.1.1
 gunicorn==19.6.0
+chromedriver-binary==79.0.3945.36
