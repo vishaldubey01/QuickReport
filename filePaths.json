@@ -1,0 +1,51 @@
+{
+    "Graffiti": {
+        "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[2]/div[1]/div[2]/h4/span",
+        "next": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[1]/div[2]/h4/span",
+        "inputs": {
+            "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[1]/div[1]/div/input",
+            "park": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[2]/div/div/div/div/textarea",
+            "description": true,
+            "picture": true
+        }
+    },
+    "Litter": {
+        "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[4]/div[1]/div[2]/h4/span",
+        "next": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[2]/div[2]/h4/span",
+        "inputs": {
+            "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[1]/div[1]/div/input",
+            "park": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[2]/div/div/div/div/textarea",
+            "description": true,
+            "picture": true
+        }
+    },
+    "Fallen Tree": {
+        "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[12]/div[1]/div[2]/h4/span",
+        "next": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[1]/div[2]/h4/span",
+        "inputs": {
+            "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[1]/div[1]/div/input",
+            "park": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[2]/div/div[1]/div/div/textarea",
+            "contact": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[2]/div/div[2]/div/div/textarea",
+            "description": true,
+            "picture": true
+        }
+    },
+    "Pothole": {
+        "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[9]/div[1]/div[2]/h4/span",
+        "next": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[2]/div[2]/h4/span",
+        "inputs": {
+            "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[1]/div[1]/div/input",
+            "description": true,
+            "picture": true
+        }
+    },
+    "Sidewalk Repair": {
+        "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[9]/div[1]/div[2]/h4/span",
+        "next": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[1]/div/div/div[1]/div[2]/div[2]/a[1]/div[2]/h4/span",
+        "inputs": {
+            "address": "/html/body/div[2]/div/div[2]/div/div[1]/div[2]/div/form/div[2]/div[1]/div[1]/div/input",
+            "description": true,
+            "picture": true
+        }
+    }
+}

@@ -1,0 +1,5 @@
+selenium
+requests
+webdriver_manager
+Flask==1.1.1
+gunicorn==19.6.0
