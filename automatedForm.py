@@ -71,7 +71,7 @@ def navigateToForm(problem):
 def fillForm(inputs):
     problem = inputs['name']
     for key in paths[problem]['inputs'].keys():
-        if(key!='description' and key!='picture'):
+        if(key!='description' and key!='picture' and key!='latitude' and key!='longitude'):
             tmpBox = browser.find_element_by_xpath(paths[problem]['inputs'][key])
             browser.execute_script(scrollToViewScript, tmpBox)
             tmpBox.send_keys(inputs[key])
